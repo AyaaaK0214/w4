@@ -21,7 +21,7 @@ function setUserName() {
     localStorage.setItem('name', myName);
     myHeading.innerHTML = '先週の復習です, ' + myName + 'さん';
   }
-}
+//}
 
 if(!localStorage.getItem('name')) {
   setUserName();
